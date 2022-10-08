@@ -7,7 +7,6 @@ import { IHomeScreenProps } from './HomeScreen.props';
 import { styles } from './HomeScreen.styles';
 
 export const HomeScreen: React.FC<IHomeScreenProps> = ({ navigation }) => {
-//asdad
   return (
     <SafeAreaView style={generalStyles.whFlex}>
       <Header title="Home" />
